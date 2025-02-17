@@ -1,0 +1,22 @@
+{
+    "system_prompt": "system_files/system_prompt.md",
+    "json_schema": {
+      "name": "story_response",
+      "strict": "true",
+      "schema": {
+        "type": "object",
+        "properties": {
+          "Reply": {
+            "type": "string",
+            "description": "Reply to the user..."
+          },
+          "Prompt": {
+            "type": "string",
+            "description": "Prompt for image generation..."
+          }
+        },
+        "required": ["Reply", "Prompt"]
+      }
+    }
+  }
+  
